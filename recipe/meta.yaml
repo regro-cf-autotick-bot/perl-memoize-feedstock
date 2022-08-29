@@ -1,6 +1,6 @@
 {% set name = "perl-memoize" %}
-{% set version = "1.10" %}
-{% set sha256 = "f5e3a225f641d117db8c3cbecd542dfbd111ad3899ca93596292f92c2907e7e8" %}
+{% set version = "1.11" %}
+{% set sha256 = "46dd1cd0fd4d23ae1aeb0b5d3aba5bd0bd794c6f1d1ec73b5ddddb8d7d53e39c" %}
 
 package:
   name: {{ name }}
@@ -38,7 +38,7 @@ about:
   home: https://metacpan.org/pod/Memoize
   license: GPL-1.0-or-later OR Artistic-1.0-Perl
   license_family: OTHER
-  summary: 'Make functions faster by trading space for time'
+  summary: Make functions faster by trading space for time
   license_file:
     - {{ environ["PREFIX"] }}/man/man1/perlartistic.1
     - {{ environ["PREFIX"] }}/man/man1/perlgpl.1
