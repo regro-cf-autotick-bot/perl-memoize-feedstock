@@ -1,6 +1,6 @@
 {% set name = "perl-memoize" %}
-{% set version = "1.13" %}
-{% set sha256 = "91a64f9710e7161845a7821da6d3084c6e0bc1381a4bafc5b7a12956b7265fa4" %}
+{% set version = "1.15" %}
+{% set sha256 = "070d730c2800e30a291713ee6563bd890d33f36a49458af3f12adc05744416ab" %}
 
 package:
   name: {{ name }}
